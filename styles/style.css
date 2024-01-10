@@ -1,13 +1,25 @@
 @charset "UTF-8";
 
+
+@font-face{
+
+    font-family: 'WebFont';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
+:root{
+    --cor-1: #F5D04E;
+    --cor-2: #F7CF4B;
+}
+
 
 body{
-    background-color: #F5D04E;
+    background-color: var(--cor-1);
 }
 
 main{
@@ -20,8 +32,8 @@ section#card{
     position: absolute;
     background-color: white;
 
-    height: 370px;
-    width: 300px;
+    height: 450px;
+    width: 320px;
 
     top: 50%;
     left: 50%;
@@ -35,13 +47,76 @@ section#card{
 }
 
 
-#card img{
+#card-img{
     border-radius: 25px;
 
-    width: 250px;
+    width: 280px;
 
     display: block;
 
     margin: auto;
     margin-top: 20px;
+}
+
+
+p#learning{
+
+    font-family: 'WebFont', sans-serif;
+
+    font-size: 1em;
+    font-weight: bold;
+    
+    margin: 20px 10px 10px 10px;
+    padding: 9px;
+    padding-top: 8px;
+    width: 60px;
+    
+    background-color: var(--cor-2);
+    
+    border-radius: 10px;
+}
+
+p#published{
+
+    margin: 10px;
+
+    font-family: 'WebFont', sans-serif;
+
+}
+
+h1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'WebFont', sans-serif;
+    color: var(--cor-2);
+}
+
+p#definition{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+
+    font-family: 'WebFont', sans-serif;
+    color: gray;
+    font-size: 0.9em;
+}
+
+img#photo{
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+p#name{
+    display: inline;
+    font-family: 'WebFont', sans-serif;
+    font-weight: bolder;
+}
+
+div{
+    display: flex;
+    align-items: center;
 }
