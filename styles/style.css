@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #F5D04E;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#card{
+    position: absolute;
+    background-color: white;
+
+    height: 370px;
+    width: 300px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    border-radius: 20px;
+    border: 1px solid black;
+
+    box-shadow: 9px 9px 0px black;
+}
+
+
+#card img{
+    border-radius: 25px;
+
+    width: 250px;
+
+    display: block;
+
+    margin: auto;
+    margin-top: 20px;
+}
