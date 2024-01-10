@@ -120,3 +120,17 @@ div{
     display: flex;
     align-items: center;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+a:hover{
+    background-color: var(--cor-2);
+    box-shadow: 9px 9px 0px black;
+    transition: 1s;
+}
