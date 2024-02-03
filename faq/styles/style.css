@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "WorkSans";
+    src: url("../assets/fonts/static/WorkSans-Bold.ttf") format("truetype");
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "WorkSans", sans-serif;
+}
+
+:root{
+    --background : #F9EEFF;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 0px black;
+}
+
+h1{
+    margin-left: 50px;
+    font-size: 3em;
+}
+
+img#purple{
+    margin-right: 20px;
+}
+
+
