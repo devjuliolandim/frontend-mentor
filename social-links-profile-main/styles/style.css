@@ -18,8 +18,8 @@ body{
 }
 
 #main{
-    width: 280px;
-    height: 400px;
+    width: 380px;
+    height: 580px;
     background-color:#1F1F1F;
     position: absolute;
     top: 50%;
@@ -27,22 +27,20 @@ body{
     transform: translate(-50%, -50%);
 
     border-radius: 10px;
-
-    
 }
 
 img{
     display: block;
     border-radius: 50%;
-    width: 80px;
+    width: 100px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 35px;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.492);
 }
 
 #name{
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
 
     margin-top: 15px;
@@ -51,7 +49,7 @@ img{
 
 #city{
     color: #c5f82ad7;
-    font-size: 15px;
+    font-size: 22px;
     text-align: center;
     margin-top: 5px;
 }
@@ -61,16 +59,18 @@ ul{
 }
 
 p{
-    margin-top: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     font-style: italic;
 }
 
 a{
     text-decoration: none;
     font-weight: bolder;
+    font-size: 1.2em;
 
     color: white;
     cursor: pointer;
@@ -78,12 +78,12 @@ a{
 
     margin: auto;
     margin-top: 10px;
-    padding: 7px 0px;
+    padding: 14px 0px;
     border-radius: 10px;
 
     text-align: center;
     
-    width: 240px;
+    width: 300px;
 
     display: block;
 
